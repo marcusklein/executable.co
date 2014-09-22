@@ -1,0 +1,91 @@
+.js #preloader { 
+	position: fixed; left: 0; 
+	top: 0; 
+	z-index: 999; 
+	width: 100%; 
+	height: 100%;
+	overflow: visible;
+	background: #333 url(resources/loading.gif) no-repeat center center;
+}
+
+
+.text  {
+	position:absolute;
+	z-index:4;
+}
+
+.panelBreak{
+	border-top: 1px solid rgba(10, 10, 10, 0.2);
+}
+
+/* Video Placement */
+#bgVid {
+	z-index: 3; 
+}
+
+#bgNiceVid { 
+	z-index: 2;
+}
+
+video {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);       
+}
+
+
+
+body {
+	margin: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+nav {
+	position: fixed !important;
+}
+
+
+#panel_1 {
+
+	background: -webkit-linear-gradient(#111111, #222222); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#111111, #222222); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#111111, #222222); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#111111, #222222); /* Standard syntax */
+}
+
+
+#panel_2 {
+
+
+	color: #FFF;
+}
+
+#panel_3 {
+	background-attachment: fixed;
+	background-color: white;
+}
+#panel_4 {
+	background-color: yellow
+}
+
+#panel_5 {
+	background-color: black;
+}
+#panel_6 {
+	background-color: #123456;
+}
+
+#panel_7 {
+	background-color: orange;
+}
+#panel_8 {
+	background-color: green;
+}

@@ -1,0 +1,122 @@
+html {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.6);
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    max-width: 720px;
+/*    margin: 0 auto 1em auto;
+    padding: 0 20px;*/
+    font-size: 16px;
+    line-height: 2em;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+    font-weight: 200;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: white;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.zigzag {
+    background: url('http://www.flatmate.se/wp-content/themes/flatmate2/images/graphics/zigzag.svg') center center repeat-x;
+
+    -webkit-background-size: 10px 5px;
+    -moz-background-size: 10px 5px;
+    background-size: 10px 5px;
+    width: 300px;
+    height: 10px;
+    border: 0;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+.zigzagBright {
+    background: url('http://www.flatmate.se/wp-content/themes/flatmate2/images/graphics/zigzag_lighter.svg') center center repeat-x;
+
+    -webkit-background-size: 10px 5px;
+    -moz-background-size: 10px 5px;
+    background-size: 10px 5px;
+    width: 400px;
+    height: 10px;
+    border: 0;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+/* iPhone */
+@media only screen and (max-device-width: 580px){
+
+    
+}
+
+@media all and (max-height:800px){
+
+}
+@media all and (max-width: 850px){
+
+}
+
+@media all and (max-width: 683px){
+    nav{
+        text-align: center; 
+    }
+}
+@media all and (max-width: 600px){
+
+}
+@media all and (max-width: 575px){
+    nav{
+        text-align: center; 
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 480px){
+    h1{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .zigzag{
+        width: 80%;
+    }
+}
