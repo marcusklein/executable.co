@@ -27,6 +27,13 @@
 	z-index: 2;
 }
 
+#middle {
+	position:fixed;
+	left: 50%;
+	height: 100%;
+	border-left: solid 1px black;
+}
+
 video {
 	position: absolute;
 	width: 100%;
@@ -36,6 +43,9 @@ video {
 	transform: translate(-50%, -50%);       
 }
 
+#mainTitle {
+	border: solid 1px white;
+}
 
 
 body {
