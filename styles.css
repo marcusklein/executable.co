@@ -37,7 +37,6 @@
 }
 
 #navbar {
-	border: solid 1px white;
 	margin: 0 auto;
   	left: 0;
   	right: 0;
@@ -48,15 +47,13 @@ td {
 }
 
 #mainTitle {
-	border: solid 1px white;
 	margin: 0 auto;
   	left: 0;
   	right: 0;
   	width:100%;
 }
 #titleWrap {
-	width: 600px;
-	border: solid 1px white;
+	/*width: 600px;*/
 	margin: 0 auto;
   	left: 0;
   	right: 0;
@@ -75,11 +72,40 @@ body {
 }
 
 #navbar {
-	z-index: 300;
+	z-index: 1;
 	position: fixed;
 	margin-top: 20px;
 	-webkit-transform: translate3d(0, 0, 0);
-	width: 400px;
+	max-width: 500px;
+}
+
+#contactTable {
+	top:50px;
+	position: relative;
+	margin: 0 auto;
+  	left: 0;
+  	right: 0;
+	width: 20%;
+}
+
+
+#contactWrapper a {
+	color: white;
+}
+#contactWrapper a:hover {
+	color: #ababff;
+}
+
+#contactWrapper #touch {
+	margin-right:10px;
+}
+
+#phoneNumber {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	left: -10px;
+	top:100px;
 }
 
 #panel_1 {
@@ -96,13 +122,14 @@ body {
 	background-color: #123456;
 }
 
+
 #panel_3 {
 	background-color: orange;
 }
 #panel_4 {
-	background-color: red;
+	background-color: #a40000;
 }
 
 #panel_5 {
-	background-color: blue;
+	background-color: #00613b;
 }

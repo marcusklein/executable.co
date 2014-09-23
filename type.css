@@ -13,6 +13,7 @@ nav {
 }
 
 h1 {
+    /*font-family: 'Open Sans', sans-serif;*/
     color: white;
     font-size: 60px;
     font-weight: 700;
@@ -44,9 +45,19 @@ td {
     text-align: center;
 }
 
+.wrapper {
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 200%;
+}
+
+.mega-octicon {
+    font-size: 50px;
+}
+
 a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 200;
 
     -webkit-transition: all 0.2s ease-in-out;
@@ -69,7 +80,7 @@ a:hover {
 /* iPhone */
 @media only screen and (max-device-width: 580px){
 
-    
+
 }
 
 @media all and (max-height:800px){
@@ -83,6 +94,9 @@ a:hover {
     nav{
         text-align: center; 
     }
+    .wrapper {
+        font-size: 0.8em;
+    }
 }
 @media all and (max-width: 600px){
 
@@ -95,10 +109,9 @@ a:hover {
 }
 @media all and (max-width: 480px){
     h1{
-        font-size: 20px;
-        margin-top: 20px;
+        font-size: 30px;
     }
-    .zigzag{
-        width: 80%;
+    .mega-octicon {
+        font-size: 25px;
     }
 }

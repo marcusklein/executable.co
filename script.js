@@ -6,7 +6,10 @@ function fireContentResizer() {
 	var nw = $(window).width();
 	console.log(nw);
 	center("#mainTitle", nw, nh);
-	//center("#navbar", nw, nh);
+	center("#aboutWrapper", nw, nh);
+	center("#blogWrapper", nw, nh);
+	center("#projectWrapper", nw, nh);
+	center("#contactWrapper", nw, nh);
 	document.body.style.overflow = "";
 	for (var i = 1; i <= numPanels; i++) {
 		$("#panel_" + i).height(nh);
@@ -17,7 +20,7 @@ function fireContentResizer() {
 
 function center(target, nw, nh) {
 	if ($(target).attr("id") !== "navbar")
-		$(target).css("top", (nh / 2) - ($(target).height() / 2) + "px");
+		$(target).css("margin-top", (nh / 2) - ($(target).height() / 2) + "px");
 	$(target).css("left", (nw / 2) - ($(target).width() / 2) - getScrollbarWidth() + "px");
 }
 
@@ -80,7 +83,7 @@ $(document).ready(function () {
 		panelNum = panelNum.replace(/\D/g,'');
 		$('html, body').animate({
 			scrollTop: $("#panel_" + panelNum).offset().top
-		}, 1000);
+		}, 500);
 	});
 
 	// Fire resize event as soon as page loads
