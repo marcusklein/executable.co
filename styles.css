@@ -18,6 +18,15 @@
 	border-top: 1px solid rgba(10, 10, 10, 0.2);
 }
 
+#middle {
+	z-index: 300;
+	position: absolute;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	border-left: solid 1px black;
+}
+
 /* Video Placement */
 #bgVid {
 	z-index: -1; 
@@ -25,6 +34,32 @@
 
 #bgNiceVid { 
 	z-index: -1;
+}
+
+#navbar {
+	border: solid 1px white;
+	margin: 0 auto;
+  	left: 0;
+  	right: 0;
+}
+
+td {
+	margin: 0;
+}
+
+#mainTitle {
+	border: solid 1px white;
+	margin: 0 auto;
+  	left: 0;
+  	right: 0;
+  	width:100%;
+}
+#titleWrap {
+	width: 600px;
+	border: solid 1px white;
+	margin: 0 auto;
+  	left: 0;
+  	right: 0;
 }
 
 video {
